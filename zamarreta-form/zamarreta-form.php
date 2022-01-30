@@ -168,13 +168,6 @@ function Zamarreta_Form_admin()
         $tallas = esc_textarea($pedido->tallas);
         $direccion = esc_textarea($pedido->direccion);
         $observacion = esc_textarea($pedido->observacion);
-        //$motivacion = esc_textarea($aspirante->motivacion);
-        //$nivel_html = (int)$aspirante->nivel_html;
-        $nivel_css = "";
-        $nivel_js = "";
-        $nivel_php = "";
-        $nivel_wp = "";
-        //$total = $nivel_html + $nivel_css + $nivel_js + $nivel_php + $nivel_wp;
         echo "<tr><td><a href='#' title='pedido'>$nombre</a></td>
             <td>$telefono</td><td>$email</td><td>$unidades</td>
             <td>$tallas</td><td>$direccion</td><td>$observacion</td></tr>";
