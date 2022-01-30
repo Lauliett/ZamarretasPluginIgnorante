@@ -67,7 +67,7 @@ function zamarreta_form(){
                 <option value="l">L</option>
                 </select>
             </div>
-            Para hacerte llegar la camiseta, necesitamos tus datos de contacto.
+            Para hacerte llegar la camiseta, necesitamos tus datos de contacto. <br/>
             <label for="persona">Nombre y Apellidos</label>
             <input type="text" id="persona" name="persona" required>
 
@@ -114,7 +114,6 @@ function recoger_datos(){
             foreach ( $_POST["talla"] as $talla ) { 
                     $tallas = $tallas . $talla . ", "; 
              }
-             echo "</ul>";
         }
         $tallas = sanitize_text_field($tallas);
         
