@@ -146,7 +146,7 @@ function Zamarreta_Pedido_menu()
     );
 }
 
-function Zamarreta_Form_admin
+function Zamarreta_Form_admin()
 {
     global $wpdb;
     $tabla_zamarretas = $wpdb->prefix . 'zamarreta_pedida';
