@@ -142,11 +142,11 @@ function Zamarreta_Pedido_menu()
 {
     add_menu_page(
         'Formulario zamarretas pedidas', 'Zamarretas', 'manage_options', 
-        'zamarretas_pedidos_menu', 'Kfp_Aspirante_admin', 'dashicons-feedback', 75
+        'zamarretas_pedidos_menu', 'Zamarreta_Form_admin', 'dashicons-feedback', 75
     );
 }
 
-function Kfp_Aspirante_admin()
+function Zamarreta_Form_admin
 {
     global $wpdb;
     $tabla_zamarretas = $wpdb->prefix . 'zamarreta_pedida';
